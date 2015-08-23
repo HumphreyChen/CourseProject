@@ -23,11 +23,13 @@
 
 ### After Processing:
 #### Combined training and testing data into a single data frame
-- The testing data are row-binded after training data. </br>
-- y (activity), subject, and X (features) are column-binded. </br>
+- The testing data were row-binded after training data. </br>
+- y (activity), subject, and X (features) were column-binded. </br>
 
 #### Variables in X (features) data set are reduced to those related to mean() and std() of certain measurements.
-- Dimension of features is reduced from 561 to 66 </br>
+- Dimension of features was reduced from 561 to 66 </br>
+- The names of features were slighted modified by removing "-" and "()" which may cause troubles when serving as parameters or indices. </br>
 
 #### A summarized data frame can be outputted at the end.
-- ddply function is applied to compute the column-wise mean for each group (specified by activity and subject). In other words, the statistics of the features can be assessed more easily through group-wise analysis.
+- ddply function was applied to compute the column-wise mean for each group (specified by activity and subject). In other words, the statistics of the features can be assessed more easily through group-wise analysis. </br>
+- The names of features were slightly modified ("average 'FEATURE NAME'") because the values were all averaged according to the groups.
