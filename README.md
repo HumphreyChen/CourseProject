@@ -4,5 +4,4 @@ unzip the data folder
 Put run_analysis.R and all the data sets in the same working directory
 <br />
 ## 2. Run run_analysis.R
-<br />
-## 3. Two files will be produced as txt and csv formats. The csv can be opened using Excel for visually checking the contents.
+Two files will be produced as txt and csv formats. The csv can be opened using Excel for visually checking the contents.
