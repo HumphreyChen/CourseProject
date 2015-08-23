@@ -30,6 +30,6 @@
 - Dimension of features was reduced from 561 to 66 </br>
 - The names of features were slighted modified by removing "-" and "()" which may cause troubles when serving as parameters or indices. </br>
 
-#### A summarized data frame can be outputted at the end.
+#### A summarized data frame can be outputted at the end (average_features_in_groups.txt).
 - ddply function was applied to compute the column-wise mean for each group (specified by activity and subject). In other words, the statistics of the features can be assessed more easily through group-wise analysis. </br>
 - The names of features were slightly modified ("average 'FEATURE NAME'") because the values were all averaged according to the groups.
