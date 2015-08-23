@@ -33,7 +33,7 @@
 - The names of features were slighted modified by removing "-" and "()" which may cause troubles when serving as parameters or indices. </br>
 
 #### A summarized data frame can be outputted at the end (average_features_in_groups.txt).
-- ddply function was applied to compute the column-wise mean for each group (specified by activity and subject). In other words, the statistics of the features can be assessed more easily through group-wise analysis. </br>
+- ddply function was applied to compute the column-wise mean for each group (specified by activity and subject). In other words, the statistics of the features can be assessed more easily through group-wise analysis. </br></br>
 - The detailed meanings of the features can also be found from http://www.cs.ubc.ca/~nando/540-2013/projects/p1.pdf: </br>
   1. tBodyAcc-XYZ: Time domain acceleration due to external force</br>
   2. tGravityAcc-XYZ: Time domain acceleration of gravity</br>
@@ -51,5 +51,5 @@
   14. fBodyAccMag: Frequency Domain of 6</br>
   15. fBodyAccJerkMag: Frequency Domain of 8</br>
   16. fBodyGyroMag: Frequency Domain of 9</br>
-  17. fBodyGyroJerkMag: Frequency Domain of 10</br>
+  17. fBodyGyroJerkMag: Frequency Domain of 10</br></br>
 - The names of the features were slightly modified by adding "average" in front of the feature names because the values were all averaged according to the groups. </br>
