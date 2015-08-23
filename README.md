@@ -1,6 +1,6 @@
 ## 1. Files
-- download the data set from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip </br>
-- unzip the data folder (named "UCI HAR Dataset") </br>
+- Download the data set from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip </br>
+- Unzip the data folder (named "UCI HAR Dataset") </br>
 - Put run_analysis.R and the unzipped folder in the same working directory </br>
 
 ## 2. Run run_analysis.R
