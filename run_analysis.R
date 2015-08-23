@@ -26,7 +26,8 @@ target_f_idx <- grep("(mean|std)\\(\\)",feature_name[, 2])
 feature_data <- feature_data[, target_f_idx]
 # set the names of columns
 colnames(feature_data) <- gsub("-", "", feature_name[target_f_idx, 2])
-colnames(feature_data) <- gsub("\\(\\)", "_", colnames(feature_data))
+colnames(feature_data) <- gsub("\\(\\)", "", colnames(feature_data))
+
 
 ## Requirement 3: Uses descriptive activity names to name the activities in the data set
 # read the names of activities
