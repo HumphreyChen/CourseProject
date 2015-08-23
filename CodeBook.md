@@ -30,11 +30,11 @@
 
 #### Variables in X (features) data set are reduced to those related to mean() and std() of certain measurements.
 - Dimension of features was reduced from 561 to 66 </br>
-- The names of features were slighted modified by removing "-" and "()" which may cause troubles when serving as parameters or indices. </br>
+- The names of features were slighted modified by removing "-" and "()" which may cause inconvenience in coding when serving as parameters or indices. </br>
 
 #### A summarized data frame can be outputted at the end (average_features_in_groups.txt).
 - ddply function was applied to compute the column-wise mean for each group (specified by activity and subject). In other words, the statistics of the features can be assessed more easily through group-wise analysis. </br></br>
-- The detailed meanings of the features can also be found from http://www.cs.ubc.ca/~nando/540-2013/projects/p1.pdf: </br>
+- The detailed descriptions of the features can also be found from http://www.cs.ubc.ca/~nando/540-2013/projects/p1.pdf: </br>
   1. tBodyAcc-XYZ: Time domain acceleration due to external force</br>
   2. tGravityAcc-XYZ: Time domain acceleration of gravity</br>
   3. tBodyAccJerk-XYZ: Time domain derivative of external force</br>
@@ -53,3 +53,4 @@
   16. fBodyGyroMag: Frequency Domain of 9</br>
   17. fBodyGyroJerkMag: Frequency Domain of 10</br></br>
 - The names of the features were slightly modified by adding "average" in front of the feature names because the values were all averaged according to the groups. </br>
+- Dimension: 180 (i.e., 30 subjects * 6 activities) by 68 (1 column for subject + 1 column activity + 66 columns for the features). </br>
